@@ -1,0 +1,75 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "cancel": "रद्द करें",
+    "save": "सेव करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "search": "खोजें",
+    "filter": "फिल्टर",
+    "sort": "क्रमबद्ध करें"
+  },
+  "navigation": {
+    "home": "होम",
+    "dashboard": "डैशबोर्ड",
+    "bookmarks": "बुकमार्क",
+    "admin": "एडमिन",
+    "profile": "प्रोफाइल",
+    "signin": "साइन इन",
+    "signup": "साइन अप",
+    "signout": "साइन आउट"
+  },
+  "landing": {
+    "hero_title": "सर्वोत्तम AI टूल्स और संसाधन खोजें",
+    "hero_subtitle": "AI टूल्स, ट्यूटोरियल्स और संसाधनों के लिए आपका अंतिम गंतव्य। कृत्रिम बुद्धिमत्ता के साथ अपनी उत्पादकता को बढ़ाने के लिए आवश्यक सब कुछ खोजें।",
+    "get_started": "मुफ्त में शुरू करें",
+    "learn_more": "और जानें",
+    "featured_tools": "फीचर्ड AI टूल्स",
+    "explore_categories": "श्रेणियों का अन्वेषण करें"
+  },
+  "cards": {
+    "premium": "प्रीमियम",
+    "free": "मुफ्त",
+    "price": "मूल्य",
+    "tags": "टैग",
+    "category": "श्रेणी",
+    "views": "दृश्य",
+    "likes": "पसंद",
+    "bookmark": "बुकमार्क",
+    "like": "पसंद",
+    "purchase": "खरीदें",
+    "download": "डाउनलोड"
+  },
+  "auth": {
+    "signin_title": "वापस स्वागत है",
+    "signup_title": "खाता बनाएं",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "name": "पूरा नाम",
+    "signin_button": "साइन इन",
+    "signup_button": "साइन अप",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "no_account": "कोई खाता नहीं है?",
+    "have_account": "पहले से खाता है?"
+  },
+  "dashboard": {
+    "welcome": "वापस स्वागत है",
+    "wallet_balance": "वॉलेट बैलेंस",
+    "bookmarks": "बुकमार्क",
+    "downloads": "डाउनलोड",
+    "member_since": "सदस्य बने"
+  },
+  "payment": {
+    "payment_details": "भुगतान विवरण",
+    "coupon_code": "कूपन कोड",
+    "apply_coupon": "लागू करें",
+    "card_details": "कार्ड विवरण",
+    "pay_now": "अभी भुगतान करें",
+    "processing": "प्रसंस्करण...",
+    "order_summary": "ऑर्डर सारांश",
+    "total": "कुल"
+  }
+}

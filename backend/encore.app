@@ -1,0 +1,1 @@
+{"id": "ai-tool-affiliate-platform-nd9i", "lang": "typescript"}
