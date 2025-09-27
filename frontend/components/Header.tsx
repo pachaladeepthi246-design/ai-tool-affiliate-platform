@@ -10,6 +10,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import NotificationCenter from './NotificationCenter';
 
 interface HeaderProps {
   onSearch?: (query: string) => void;
@@ -56,6 +57,7 @@ export default function Header({ onSearch }: HeaderProps) {
           <nav className="flex items-center space-x-2">
             {user ? (
               <>
+                <NotificationCenter />
                 <Button variant="ghost" size="sm" asChild>
                   <Link to="/bookmarks">
                     <BookmarkIcon className="h-4 w-4 mr-2" />
