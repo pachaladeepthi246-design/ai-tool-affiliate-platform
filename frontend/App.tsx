@@ -5,6 +5,7 @@ import { ClerkProvider } from '@clerk/clerk-react';
 import { Toaster } from '@/components/ui/toaster';
 import { clerkPublishableKey } from './config';
 import AppInner from './AppInner';
+import SkipToContent from './components/SkipToContent';
 
 const queryClient = new QueryClient();
 
@@ -16,9 +17,12 @@ export default function App() {
   return (
     <ClerkProvider publishableKey={clerkPublishableKey}>
       <QueryClientProvider client={queryClient}>
-        <div className="min-h-screen bg-background text-foreground">
+        <div className="min-h-screen bg-background text-foreground" lang="en">
+          <SkipToContent />
           <Router>
-            <AppInner />
+            <main id="main-content">
+              <AppInner />
+            </main>
           </Router>
           <Toaster />
         </div>
