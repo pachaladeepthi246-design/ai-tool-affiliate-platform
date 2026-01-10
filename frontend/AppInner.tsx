@@ -14,6 +14,10 @@ import UserBookmarks from './pages/UserBookmarks';
 import SupportPage from './pages/SupportPage';
 import ReferralsPage from './pages/ReferralsPage';
 import InvoicesPage from './pages/InvoicesPage';
+import AffiliateDashboard from './pages/AffiliateDashboard';
+import Settings from './pages/Settings';
+import ProfileEdit from './pages/ProfileEdit';
+import NotFound from './pages/NotFound';
 
 function ProtectedRoute({ children, requireAdmin = false, requireSuperAdmin = false }: { 
   children: React.ReactNode; 
@@ -122,6 +126,35 @@ export default function AppInner() {
             </ProtectedRoute>
           }
         />
+        
+        <Route
+          path="/affiliate"
+          element={
+            <ProtectedRoute>
+              <AffiliateDashboard />
+            </ProtectedRoute>
+          }
+        />
+        
+        <Route
+          path="/settings"
+          element={
+            <ProtectedRoute>
+              <Settings />
+            </ProtectedRoute>
+          }
+        />
+        
+        <Route
+          path="/profile/edit"
+          element={
+            <ProtectedRoute>
+              <ProfileEdit />
+            </ProtectedRoute>
+          }
+        />
+        
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
